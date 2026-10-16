@@ -1,16 +1,31 @@
-# React + Vite
+# 📝 Yapılacaklar Listesi (Todo App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, modern web teknolojileri kullanılarak geliştirilmiş, şık ve kullanıcı dostu bir yapılacaklar listesi uygulamasıdır. Kullanıcıların günlük görevlerini kolayca eklemesine, düzenlemesine, tamamlamasına ve silmesine olanak tanır. Veriler tarayıcının **LocalStorage**'ında saklanır, böylece sayfa yenilense bile görevler kaybolmaz.
 
-Currently, two official plugins are available:
+## 🚀 Canlı Demo
+Projenin canlı halini buradan inceleyebilirsiniz: 
+👉 https://subtle-muffin-54327f.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Özellikler
+- [x] Görev Ekleme
+- [x] Görevleri Listeleme
+- [x] Görev Güncelleme (Düzenleme)
+- [x] Görev Silme
+- [x] Görevi Tamamlandı Olarak İşaretleme
+- [x] LocalStorage ile veri kalıcılığı
+- [x] Responsive (Mobil uyumlu) Tasarım
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
+Bu proje geliştirilirken aşağıdaki teknolojilerden faydalanılmıştır:
+- **ReactJS** (Kullanıcı Arayüzü)
+- **Vite** (Hızlı Geliştirme Ortamı)
+- **Tailwind CSS** (Modern ve Şık Tasarım)
+- **LocalStorage** (Veri Saklama)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Kurulum ve Çalıştırma
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
-## Expanding the ESLint configuration
+1. Projeyi bilgisayarınıza klonlayın:
+   ```bash
+   git clone https://github.com/nevrayanik/todo-app.git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
